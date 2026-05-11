@@ -636,6 +636,13 @@
     border: 1px solid var(--line);
     color: var(--ink-soft);
     border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .channel-tag:hover {
+    border-color: var(--accent);
+    color: var(--accent);
   }
 
   /* FOOTER */
@@ -908,9 +915,9 @@
         <a href="tel:+37360373883" class="contact-value">+373 60 373 883</a>
         <a href="tel:+380952251717" class="contact-value">+380 95 225 1717</a>
         <div class="contact-channels">
-          <span class="channel-tag">WhatsApp</span>
-          <span class="channel-tag">Telegram</span>
-          <span class="channel-tag">Viber</span>
+          <a href="https://wa.me/37360373883" target="_blank" class="channel-tag">WhatsApp</a>
+          <a href="https://t.me/Agrarian" target="_blank" class="channel-tag">Telegram</a>
+          <a href="viber://chat?number=%2B37360373883" class="channel-tag">Viber</a>
         </div>
       </div>
       <div class="contact-block">
